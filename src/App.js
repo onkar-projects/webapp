@@ -69,7 +69,7 @@ function Page1() {
   const fadeRef = useRef(null);
 
   useEffect(() => {
-    const audio = new Audio("/audio/song2.mpeg");
+    const audio = new Audio("/audio/song2.mp3");
     audio.loop = true;
     audio.volume = 0;
     audioRef.current = audio;
